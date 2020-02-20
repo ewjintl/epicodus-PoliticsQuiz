@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="stylesheet" href="css/bootstrap.css" type="text/css">
+	<link rel="stylesheet" href="css/styles.css" type="text/css">
+	<script src="js/jquery-3.4.1.js"></script>
+	<script src="js/scripts.js"></script>
+	<title>Political Meter</title>
+</head>
+<body>
+	<div class="cotainer">
+		<div class="jumbotron">
+			<h1>Welcome to the political meter!</h1>
+			<p>A a quick political view assesment!</p>
+		</div>
+		<div class="well">
+			<form id="selector">
+				<h3>What is your take on climate change?</h3>
+				<select class="form-control" id="climate">
+					<option value="1">"This is a global emergency!"</option>
+					<option value="2">"We should take action eventually."</option>
+					<option value="3">"I don't believe in the 'science'."</option>
+					<option value="4">"It's a Chinese hoax!"</option>
+				</select>
+				<br>
+				<h3>What is your take on gun control?</h3>
+				<select class="form-control" id="gun">
+					<option value="1">"This is a national emergency!"</option>
+					<option value="2">"We should instate mental health checks in stores."</option>
+					<option value="3">"Hopes & prayers"</option>
+					<option value="4">"Over my dead body!"</option>
+				</select>
+				<h3>What is your take on reproductive rights?</h3>
+				<select class="form-control" id="repro">
+					<option value="1">"Mandatory vasectomies in abortion ban states!"</option>
+					<option value="2">"Their body their choice."</option>
+					<option value="3">"Pro-life"</option>
+					<option value="4">"Child murderers!"</option>
+				</select>
+				<button class="btn btn-info" type="submit">Submit!</button>
+			</form>
+		</div>
+		<div class="well" id="left">
+			<p>Based upon your answers your views lean left.</p>
+			<img src="img/left.jpg" alt="">
+		</div>
+		<div class="well" id="center">
+			<p>Based upon your answers your views lean center.</p>
+			<img src="img/center.jpg" alt="">
+		</div>
+		<div class="well" id="right">
+			<p>Based upon your answers your views lean right.</p>
+			<img src="img/right.jpg" alt="">
+		</div>
+	</div>
+</body>
+</html>
